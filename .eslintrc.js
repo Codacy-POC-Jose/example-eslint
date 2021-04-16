@@ -1,12 +1,12 @@
-{
-  "plugins": [
+module.exports = {
+  plugins: [
     "security-node"
   ],
-  "extends": [
+  extends: [
     "plugin:security-node/recommended",
      "plugin:unicorn/recommended"
   ],
-  "rules": {
+  rules: {
     "security-node/non-literal-reg-expr": "warn",
     'unicorn/consistent-function-scoping': 'warn',
     'unicorn/no-for-loop': 'warn',
