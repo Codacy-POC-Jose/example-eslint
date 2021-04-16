@@ -3,7 +3,8 @@
     "security-node"
   ],
   "extends": [
-    "plugin:security-node/recommended"
+    "plugin:security-node/recommended",
+     "plugin:unicorn/recommended"
   ],
   "rules": {
     "security-node/non-literal-reg-expr": "warn"
